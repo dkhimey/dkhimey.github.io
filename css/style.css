@@ -109,10 +109,12 @@ figure figcaption {
 @media screen and (max-width: 1200px) {
   #fh5co-aside {
     width: 30%;
+    background-image: url('heic0406a.jpg');
   }
 }
 @media screen and (max-width: 768px) {
   #fh5co-aside {
+    background-image: url('heic0406a.jpg');
     width: 270px;
     -moz-transform: translateX(-270px);
     -webkit-transform: translateX(-270px);
@@ -277,8 +279,9 @@ figure figcaption {
 }
 
 #fh5co-aside .fh5co-footer {
-  position: absolute;
-  bottom: 40px;
+  position: relative;
+  margin-top: 40px;
+  bottom: 30px;
   font-size: 30px;
   text-align: center;
   width: 100%;
@@ -349,7 +352,7 @@ figure figcaption {
 
 #fh5co-hero {
   min-height: 500px;
-  background: #fff url(../images/loader.gif) no-repeat center center;
+  background-image: url(../images/loader.gif);
   width: 100%;
   float: left;
   clear: both;
@@ -495,10 +498,11 @@ figure figcaption {
   }
 }
 
+
 .fh5co-bg-color {
   width: 100%;
   float: left;
-  background: #fff;
+  background-image: url('heic0406a.jpg');
 }
 
 body.offcanvas {
@@ -1090,21 +1094,23 @@ body.offcanvas #fh5co-main, body.offcanvas .fh5co-nav-toggle {
   height: 130px;
 }
 
+
 .fh5co-nav-toggle {
   cursor: pointer;
   text-decoration: none;
 }
 .fh5co-nav-toggle.active i::before, .fh5co-nav-toggle.active i::after {
-  background: whitesmoke;
+  background: black;
 }
 .fh5co-nav-toggle.dark.active i::before, .fh5co-nav-toggle.dark.active i::after {
-  background: whitesmoke;
+  background: black;
 }
 .fh5co-nav-toggle:hover, .fh5co-nav-toggle:focus, .fh5co-nav-toggle:active {
   outline: none;
   border-bottom: none !important;
 }
 .fh5co-nav-toggle i {
+  background-image: url('heic0406a.jpg');
   position: relative;
   display: -moz-inline-stack;
   display: inline-block;
@@ -1148,6 +1154,7 @@ body.offcanvas #fh5co-main, body.offcanvas .fh5co-nav-toggle {
 }
 
 .fh5co-nav-toggle i::after {
+  background-image: url('heic0406a.jpg');
   bottom: -7px;
 }
 
