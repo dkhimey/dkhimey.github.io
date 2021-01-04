@@ -108,16 +108,17 @@ figure figcaption {
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
+  /* background: #1a1a1a; */
 }
 @media screen and (max-width: 1200px) {
   #fh5co-aside {
     width: 30%;
-    background-image: url('heic0406a.jpg');
+    background-color: #1a1a1a;
   }
 }
 @media screen and (max-width: 768px) {
   #fh5co-aside {
-    background-image: url('heic0406a.jpg');
+    background: #1a1a1a;
     width: 270px;
     -moz-transform: translateX(-270px);
     -webkit-transform: translateX(-270px);
@@ -137,6 +138,8 @@ figure figcaption {
 @media screen and (max-width: 768px) {
   #fh5co-aside #fh5co-logo {
     margin-bottom: 4em;
+    background-color: #1a1a1a;
+    color: #ffffff
   }
 }
 #fh5co-aside #fh5co-logo a {
@@ -164,6 +167,7 @@ figure figcaption {
 }
 @media screen and (max-width: 768px) {
   #fh5co-aside #fh5co-main-menu ul {
+    background-color: #1a1a1a;
     margin: 0 0 2em 0;
   }
 }
@@ -300,6 +304,7 @@ figure figcaption {
   #fh5co-aside .fh5co-footer {
     position: relative;
     bottom: 0;
+    background-color: #1a1a1a;
   }
 }
 #fh5co-aside .fh5co-footer span {
